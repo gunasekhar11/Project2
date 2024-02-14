@@ -1,0 +1,20 @@
+.home{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 75% 23%;
+}
+
+.home .search{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: auto 50px;
+}
+
+@media (max-width:768px){
+    .home{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}

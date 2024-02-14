@@ -1,0 +1,46 @@
+.pie-chart{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: auto;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid rgba(211, 211, 211, 0.40);
+}
+
+.pie-chart .chart{
+    text-align: left;
+    width: auto;
+    padding: 10px;
+}
+
+.pie-chart .chart .price{
+    text-align: center;
+    position: relative;
+}
+
+.pie-chart .filter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie-chart .prices .each{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-chart .prices .each .icons{
+    margin-right: 20px;
+}
+
+@media (max-width:768px){
+    .pie-chart{
+        /* margin: 10px;
+        padding: 20px;
+        grid-template-columns: 100%; */
+        display: none;
+    }
+}

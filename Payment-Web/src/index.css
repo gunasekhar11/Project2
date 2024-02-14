@@ -1,0 +1,112 @@
+:root {
+  --main-color: #13b17d;
+}
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins';
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #666;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none !important;
+  color: #080A3C;
+}
+
+.nav-link{
+  color: black !important;
+}
+
+p{
+  margin-bottom: 0px !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+}
+
+.icons{
+  width: 30px;
+  height: 30px;
+}
+
+input:focus,select:focus , form input:focus{
+  box-shadow:none !important;
+  border:2px solid var(--main-color) !important;
+}
+
+.card-login{
+  background: #FFFFFF;
+  box-shadow: 0px 6px 40px rgba(217, 217, 217, 0.39);
+  border: none;
+  border-radius: 20px;
+}
+
+.login-name{
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 30px;
+  line-height: 45px;
+  color: #080A3C;
+
+}
+
+.form-control{
+  border-radius: 8px !important;
+  border: none;
+}
+
+::placeholder{
+  color: var(--main-color) !important;   
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.login-btn{
+  background: var(--main-color) !important;
+  border-radius: 9px;
+}
+
+.font-bold {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+}
+
+.font-normal {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+.ui-icons{
+  color: var(--main-color);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}

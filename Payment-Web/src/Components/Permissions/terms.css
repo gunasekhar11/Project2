@@ -1,0 +1,41 @@
+.terms-section{
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.terms-section ul , .terms-section li{
+    list-style:disc !important;
+}
+
+.terms-section .terms-layout{
+    background-color: white;
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: scroll;
+    padding: 50px;
+    border-radius: 10px auto;
+    font-size: 13px;
+}
+
+.terms-section .terms-btns{
+    width: 80%;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;
+}
+
+@media (max-width:768px){
+    .terms-section{
+        align-items: flex-start;
+        text-align: left;
+    }
+    .terms-section .terms-layout{
+        padding: 20px;
+        width: 100%;
+    }
+}
